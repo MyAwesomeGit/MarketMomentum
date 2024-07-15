@@ -1,5 +1,6 @@
 .DS_Store
 Playground.swift
+Secret.swift
 # Ignore xcuserdata in all directories
 xcuserdata/
 *xcuserdata/

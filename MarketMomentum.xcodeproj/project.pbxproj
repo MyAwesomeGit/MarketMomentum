@@ -15,6 +15,8 @@
 		C886B9AB2C42C40D0080CD43 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886B9AA2C42C40D0080CD43 /* Model.swift */; };
 		C886B9AD2C42C41C0080CD43 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886B9AC2C42C41C0080CD43 /* Stock.swift */; };
 		C886B9B12C42C4340080CD43 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886B9B02C42C4340080CD43 /* APIKey.swift */; };
+		C8D0FEF82C456E7A00CCC57E /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D0FEF72C456E7A00CCC57E /* Secret.swift */; };
+		C8D0FEFB2C456F5200CCC57E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D0FEFA2C456F5200CCC57E /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		C886B9AA2C42C40D0080CD43 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C886B9AC2C42C41C0080CD43 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		C886B9B02C42C4340080CD43 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		C8D0FEF72C456E7A00CCC57E /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		C8D0FEFA2C456F5200CCC57E /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		C886B9972C42C3BF0080CD43 /* MarketMomentum */ = {
 			isa = PBXGroup;
 			children = (
+				C8D0FEF92C456F4200CCC57E /* View */,
 				C886B9A92C42C4080080CD43 /* Model */,
 				C886B9A62C42C3EF0080CD43 /* Modifiers */,
 				C886B9982C42C3BF0080CD43 /* MarketMomentumApp.swift */,
@@ -91,8 +96,17 @@
 				C886B9AA2C42C40D0080CD43 /* Model.swift */,
 				C886B9AC2C42C41C0080CD43 /* Stock.swift */,
 				C886B9B02C42C4340080CD43 /* APIKey.swift */,
+				C8D0FEF72C456E7A00CCC57E /* Secret.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C8D0FEF92C456F4200CCC57E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8D0FEFA2C456F5200CCC57E /* ChartView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,11 +180,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C886B9A82C42C3FA0080CD43 /* ColorManager.swift in Sources */,
+				C8D0FEF82C456E7A00CCC57E /* Secret.swift in Sources */,
 				C886B99B2C42C3BF0080CD43 /* ContentView.swift in Sources */,
 				C886B9992C42C3BF0080CD43 /* MarketMomentumApp.swift in Sources */,
 				C886B9AD2C42C41C0080CD43 /* Stock.swift in Sources */,
 				C886B9B12C42C4340080CD43 /* APIKey.swift in Sources */,
 				C886B9AB2C42C40D0080CD43 /* Model.swift in Sources */,
+				C8D0FEFB2C456F5200CCC57E /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
