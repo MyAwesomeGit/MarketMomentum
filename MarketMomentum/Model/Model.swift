@@ -3,8 +3,10 @@ import Foundation
 
 class StockWebService {
     
+    var dateManager = DateManager()
+    
     func fetchStockData(symbol: String, completion: @escaping (Stock?) -> Void) {
-        guard let url = URL(string: "https://api.polygon.io/v2/aggs/ticker/\(symbol)/range/1/day/2024-01-01/2024-12-31?apiKey=\(Secret.apiKey)") else { return }
+            guard let url = URL(string: "https://api.polygon.io/v2/aggs/ticker/\(symbol)/range/1/day/2024-01-01/\(dateManager.getCurrentDateString())?apiKey=\(Secret.apiKey)") else { return }
         
         URLSession.shared.dataTask(with: url) { data, _, _ in
             guard let data = data else { return }

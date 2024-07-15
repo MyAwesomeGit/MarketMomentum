@@ -17,6 +17,7 @@
 		C886B9B12C42C4340080CD43 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886B9B02C42C4340080CD43 /* APIKey.swift */; };
 		C8D0FEF82C456E7A00CCC57E /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D0FEF72C456E7A00CCC57E /* Secret.swift */; };
 		C8D0FEFB2C456F5200CCC57E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D0FEFA2C456F5200CCC57E /* ChartView.swift */; };
+		C8D0FEFD2C456FA200CCC57E /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D0FEFC2C456FA200CCC57E /* DateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		C886B9B02C42C4340080CD43 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		C8D0FEF72C456E7A00CCC57E /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		C8D0FEFA2C456F5200CCC57E /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		C8D0FEFC2C456FA200CCC57E /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				C886B9AC2C42C41C0080CD43 /* Stock.swift */,
 				C886B9B02C42C4340080CD43 /* APIKey.swift */,
 				C8D0FEF72C456E7A00CCC57E /* Secret.swift */,
+				C8D0FEFC2C456FA200CCC57E /* DateManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				C886B9AD2C42C41C0080CD43 /* Stock.swift in Sources */,
 				C886B9B12C42C4340080CD43 /* APIKey.swift in Sources */,
 				C886B9AB2C42C40D0080CD43 /* Model.swift in Sources */,
+				C8D0FEFD2C456FA200CCC57E /* DateManager.swift in Sources */,
 				C8D0FEFB2C456F5200CCC57E /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
