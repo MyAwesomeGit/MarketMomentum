@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var stockSymbol = "APPL"
+    @State private var stockSymbol = ""
     @State private var stock: Stock?
     
     var body: some View {
@@ -9,7 +9,7 @@ struct ContentView: View {
             Color(mainBackgroundColor)
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                TextField("Enter stock symbol, e.g. APPL", text: $stockSymbol)
+                TextField("Enter stock symbol, e.g. AAPL", text: $stockSymbol)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding()
                     .font(.system(size: 24))
@@ -17,7 +17,7 @@ struct ContentView: View {
                 Button(action: {
                     loadStockData(symbol: stockSymbol)
                 }) {
-                    Text("Find")
+                    Text("Search")
                         .font(.largeTitle)
                         .foregroundColor(.white)
                         .padding()
